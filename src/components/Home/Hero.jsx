@@ -17,7 +17,7 @@ export default function Hero() {
         transition={{ duration: 1 }}
         className="w-full md:w-1/2 text-center md:text-left z-10"
       >
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+        <h1 className="text-4xl md:text-6xl font-semibold leading-tight">
           Hi, I&apos;m{" "}
           <span className="text-[#FACC15]">
             <Typewriter

@@ -50,7 +50,7 @@ export default function AboutPage() {
   ];
 
   return (
-    <section className="py-16 px-6 md:px-16 bg-[#0F172A] text-gray-200 min-h-screen">
+    <section className="py-20 px-6 md:px-16 bg-[#0F172A] text-gray-200 min-h-screen">
       <motion.h1
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}

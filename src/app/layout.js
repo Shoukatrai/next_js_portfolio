@@ -1,9 +1,13 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Footer from "@/components/Home/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Shoukat Dev | MERN Stack Developer & Freelancer",
@@ -63,12 +67,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
-
         <meta
           name="google-site-verification"
           content="6wBik4iQjKxYhzrFUQjvQYYPjMbbtGC4itX72PDKAEw"
         />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -94,7 +96,7 @@ export default function RootLayout({ children }) {
         />
       </head>
 
-      <body className={`${inter.className} bg-[#0F172A] text-gray-200`}>
+      <body className={`${poppins.className} bg-[#0F172A] text-gray-200`}>
         <Navbar />
         {children}
         <Footer />
