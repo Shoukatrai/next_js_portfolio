@@ -9,7 +9,7 @@ import saylaniPapaImage from "@/assets/saylani papa.png";
 import quizapp from "@/assets/quiz app.png";
 import ecommerce from "@/assets/ecommerce.png";
 import saylaniMicrofinance from "@/assets/microfinance app.png";
-import expenseTrackerImage from "@/assets/microfinance app.png";
+import expenseTrackerImage from "@/assets/expenseTrackerImage.png";
 
 const projectsData = [
   {
@@ -45,14 +45,13 @@ const projectsData = [
     github: "https://github.com/Shoukatrai/saylani-microfinance-app",
   },
   {
-  title: "MERN Stack Expense Tracker",
-  description:
-    "Full-stack expense management app built with the MERN stack, allowing users to track income and expenses, filter data, download Excel reports, and manage profile images efficiently.",
-  image: expenseTrackerImage, 
-  live: "https://expense-tracker-frontend-green-seven.vercel.app/",
-  github: "https://github.com/Shoukatrai/expense_tracker_backend",
-}
-
+    title: "MERN Stack Expense Tracker",
+    description:
+      "Full-stack expense management app built with the MERN stack, allowing users to track income and expenses, filter data, download Excel reports, and manage profile images efficiently.",
+    image: expenseTrackerImage,
+    live: "https://expense-tracker-frontend-green-seven.vercel.app/",
+    github: "https://github.com/Shoukatrai/expense_tracker_backend",
+  },
 ];
 
 export default function ProjectsPage() {
