@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Shoukat Dev Portfolio",
     images: [
       {
-        url: "/og-image.jpg", 
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Shoukat Dev Portfolio Preview",
@@ -62,8 +62,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="google-site-verification" content="6wBik4iQjKxYhzrFUQjvQYYPjMbbtGC4itX72PDKAEw" />
+        <link rel="icon" href="/favicon.png" />
+        <meta
+          name="google-site-verification"
+          content="6wBik4iQjKxYhzrFUQjvQYYPjMbbtGC4itX72PDKAEw"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
