@@ -10,7 +10,6 @@ import Services from "@/components/Home/Services";
 import Skills from "@/components/Home/Skills";
 import Projects from "@/components/Home/Projects";
 import Contact from "@/components/Home/Contact";
-import Footer from "@/components/Home/Footer";
 
 const Page = () => {
   return (

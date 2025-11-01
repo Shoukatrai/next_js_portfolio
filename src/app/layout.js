@@ -62,7 +62,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.png" />
+        <link
+          rel="icon"
+          href="/public/favicon.png"
+          type="image/png"
+          sizes="32x32"
+        />
         <meta
           name="google-site-verification"
           content="6wBik4iQjKxYhzrFUQjvQYYPjMbbtGC4itX72PDKAEw"
