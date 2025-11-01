@@ -29,11 +29,11 @@ export const metadata = {
     title: "Shoukat Dev | MERN Stack Developer",
     description:
       "Building high-performance full-stack web apps with modern technologies.",
-    url: "https://yourdomain.com",
+    url: "https://shoukatraidev.vercel.app/",
     siteName: "Shoukat Dev Portfolio",
     images: [
       {
-        url: "https://yourdomain.com/og-image.jpg",
+        url: "https://shoukatraidev.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Shoukat Dev Portfolio Preview",
