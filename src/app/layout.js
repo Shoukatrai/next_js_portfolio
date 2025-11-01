@@ -64,14 +64,16 @@ export default function RootLayout({ children }) {
       <head>
         <link
           rel="icon"
-          href="/public/favicon.png"
+          href="/favicon.png" 
           type="image/png"
           sizes="32x32"
         />
+
         <meta
           name="google-site-verification"
           content="6wBik4iQjKxYhzrFUQjvQYYPjMbbtGC4itX72PDKAEw"
         />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -96,6 +98,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
+
       <body className={`${inter.className} bg-[#0F172A] text-gray-200`}>
         <Navbar />
         {children}
